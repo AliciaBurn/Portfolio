@@ -2,8 +2,11 @@
 Read Me
 
 Project: Portfolio Update
+
 Author: Alicia Burn
+
 Date: 1/22/2020
+
 https://aliciaburn.github.io/Portfolio/
 
 ******************************
