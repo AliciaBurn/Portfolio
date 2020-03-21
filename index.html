@@ -8,9 +8,9 @@
         <title>Alicia Burn Portfolio</title>
 
         <!-- Favicons -->
-        <link rel="apple-touch-icon" sizes="180x180" href="..\assets\img\favicon\apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="..\assets\img\favicon\favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="..\assets\img\favicon\favicon-16x16.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="template\assets\img\favicon\favicon_io\apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="template\assets\img\favicon\favicon_io\favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="template\assets\img\favicon\favicon_io\favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
@@ -19,13 +19,13 @@
 
         <!-- Vendor Stylesheets -->
         <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700%7CRoboto:300,400,700" rel="stylesheet">
-        <link href="Portfolio\src\scss\vendor\_material-icons.scss" rel="stylesheet">
-        <link href="..\assets\vendor\all.min.css" rel="stylesheet">
-        <link href="..\assets\vendor\aos.css" rel="stylesheet"> 
+        <link href="template\assets\vendor\material-design-iconic-font\dist\css\material-design-iconic-font.min.css" rel="stylesheet">
+        <link href="template\assets\vendor\@fortawesome\fontawesome-free\css\all.min.css" rel="stylesheet">
+        <link href="template\assets\vendor\aos\dist\aos.css" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
             
         <!-- Theme Stylesheets -->
-        <link href="..\assets\css\theme.css" rel="stylesheet">
+        <link href="template\assets\css\theme.css" rel="stylesheet">
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129313359-1"></script>
@@ -36,7 +36,6 @@
 
             gtag('config', 'UA-129313359-1');
         </script>
-    
     </head>
 
     <body>
@@ -52,13 +51,143 @@
         <!-- Header -->
         <header class="spyre-navbar navbar navbar-expand-lg bg-secondary navbar-dark fixed-top align-items-center" data-transparent data-text-color="#ffffff">
             <div class="container">
-                <a class="navbar-brand mr-lg-5 mr-xl-7 bg-primary"  id="logo" href="Portfolio\index.html">
+                <a class="navbar-brand mr-lg-5 mr-xl-7 bg-primary"  id="logo" href="index.html">
                     <h1>  AB  </h1>
                 </a>
 
                 <span class="navbar-text flex-fill d-none d-md-inline-block text-white">
                     <a href="mailto:aliciaburn@gmail.com" subject="subject text" class="pl-2 text-white">AliciaBurn@gmail.com</a><a href="tel:302-345-9314" class="pl-5 text-white">302.345.9314</a>
                 </span>
+               
+               <!-- <div class="search d-none d-lg-flex justify-content-end ml-auto mr-2">
+                    <input class="form-control mr-2" type="text">
+                    <i class="zmdi zmdi-search"></i>
+                </div> -->
+
+                <!-- hamburger toggle
+                    <div class="menu-toggle">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="cross">
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- spyrenav Overlay -->
+            <!-- <div class="spyre-navbar-overlay overlay-slide">
+                <div class="container">
+                    <div class="row">
+                        <div class="spyre-navbar-nav-container col-md-6 col-lg-5 col-xl-4 bg-white ext-l">
+                            <nav class="spyre-navbar-nav">
+                                <ul class="spyre-nav">
+                                    <li class="spyre-nav-item"><a href="../pages/index.html" class="spyre-nav-link">Overview</a></li>
+                                    <li class="spyre-nav-item"><a href="..\pages\contact.html" class="spyre-nav-link">Contact</a></li>
+                                    <li class="spyre-nav-item dropdown">
+                                        <a href="#" class="spyre-nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li class="dropdown-menu-item"><a href="../pages/home.html" class="dropdown-menu-link">Homepage</a></li>
+                                            <li class="dropdown-menu-item"><a href="../pages/services.html" class="dropdown-menu-link">Services</a></li>
+                                            <li class="dropdown-menu-item"><a href="../pages/blog.html" class="dropdown-menu-link">Blog</a></li>
+                                            <li class="dropdown-menu-item"><a href="../pages/blog-single.html" class="dropdown-menu-link">Blog single</a></li>
+                                            <li class="dropdown-menu-item"><a href="../pages/portfolio.html" class="dropdown-menu-link">Portfolio</a></li>
+                                            <li class="dropdown-menu-item"><a href="../pages/about.html" class="dropdown-menu-link">About</a></li>
+                                            <li class="dropdown-menu-item"><a href="../pages/contact.html" class="dropdown-menu-link">Contact</a></li>
+                                            <li class="dropdown-menu-item"><a href="../pages/team.html" class="dropdown-menu-link">Team</a></li>
+                                            <li class="dropdown-menu-item"><a href="../pages/faq.html" class="dropdown-menu-link">Faq</a></li>
+                                            <li class="dropdown-menu-item"><a href="../pages/pricing.html" class="dropdown-menu-link">Pricing</a></li>
+                                            <li class="dropdown-menu-item"><a href="../pages/careers.html" class="dropdown-menu-link">Careers</a></li>
+                                            <li class="dropdown-menu-item"><a href="../pages/careers-single.html" class="dropdown-menu-link">Careers single</a></li>
+                                            <li class="dropdown-menu-item"><a href="../pages/coming-soon.html" class="dropdown-menu-link">Coming soon</a></li>
+                                            <li class="dropdown-menu-item"><a href="../pages/404.html" class="dropdown-menu-link">404</a></li>
+                                            <li class="dropdown-menu-item"><a href="../pages/sign-in.html" class="dropdown-menu-link">Sign In</a></li>
+                                            <li class="dropdown-menu-item"><a href="../pages/sign-up.html" class="dropdown-menu-link">Sing Up</a></li>
+                                            <li class="dropdown-menu-item"><a href="../pages/recover-account.html" class="dropdown-menu-link">Recover account</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="spyre-nav-item"><a href="../docs/index.html" class="spyre-nav-link">Docs</a></li>
+                                    <li class="spyre-nav-item"><a href="https://themes.getbootstrap.com/product/spyre-slick-contemporary-multipurpose-theme" target="_blank" class="spyre-nav-link">Purchase</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+        
+                        <div class="col-lg-7 col-xl-8 d-none d-md-block">
+                            <div class="d-flex flex-column h-100">
+                                <div class="d-flex h-100">
+                                    <div class="align-self-center">
+                                        <div class="text-uppercase"
+                                            data-background-text="communication"
+                                            data-color="#7079a2"
+                                            data-opacity="0.02"
+                                            data-font-size="85px"
+                                            data-font-weight="500"
+                                            data-offset-x="-5%"
+                                            data-letter-spacing="5px"
+                                        ></div>
+                                        <div class="text-uppercase"
+                                            data-background-text="planning"
+                                            data-color="#7079a2"
+                                            data-opacity="0.04"
+                                            data-font-size="175px"
+                                            data-font-weight="500"
+                                            data-offset-x="29%"
+                                            data-padding="7vh 0 2vh 0"
+                                            data-letter-spacing="5px"
+                                        ></div>
+                                        <div class="text-uppercase"
+                                            data-background-text="delivering"
+                                            data-color="#7079a2"
+                                            data-opacity="0.03"
+                                            data-font-size="140px"
+                                            data-font-weight="500"
+                                            data-offset-x="15%"
+                                            data-letter-spacing="5px"
+                                        ></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="mt-auto">
+                                    <ul class="nav flex-nowrap float-right">
+                                        <li class="nav-item">
+                                            <a class="nav-link px-2" href="#" target="_blank">
+                                                <i class="zmdi zmdi-twitter text-white"></i>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link px-2" href="#" target="_blank">
+                                                <i class="zmdi zmdi-instagram text-white"></i>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link px-2" href="#" target="_blank">
+                                                <i class="zmdi zmdi-facebook-box text-white"></i>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link px-2" href="#" target="_blank">
+                                                <i class="zmdi zmdi-pinterest text-white"></i>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link px-2" href="#" target="_blank">
+                                                <i class="zmdi zmdi-flickr text-white"></i>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link px-2" href="#" target="_blank">
+                                                <i class="zmdi zmdi-youtube text-white"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
             </div> 
             <!-- End of spyrenav Overlay -->
         </header>
@@ -69,7 +198,7 @@
         <main class="main minh-100vh">
             <!-- Section -->
             <section class="py-0 overflow-hidden text-center">
-                <div class="bg-container overlay overlay-60 parallax" data-rellax-percentage="0.5" style="background-image: url(..\assets\img\backgrounds\laptop.jpg)"></div>
+                <div class="bg-container overlay overlay-60 parallax" data-rellax-percentage="0.5" style="background-image: url(template/assets/img/backgrounds/laptop.jpg)"></div>
                 <div class="container">
                     <div class="row h-100vh justify-content-center align-items-center">
                         <div class="col-lg-8">
@@ -132,7 +261,7 @@
                                     <div class="mb-3 p-1 d-flex square rounded-circle bg-blue-light" data-aos="flip-right" data-aos-delay="100" data-aos-duration="1000">
                                         <i class="fas fa-file fs-2 fs-md-3 fs-xl-4 d-flex align-self-center mx-auto text-secondary"></i>
                                     </div>
-                                    <a href="https://github.com/AliciaBurn" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Resume</a>
+                                    <a href="template\assets\Resume_Alicia_Burn.pdf" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Resume</a>
                                 </div> 
                         </div>
                     </div>
@@ -160,73 +289,46 @@
                     <h2 class="mb-5 fw-medium text-secondary text-uppercase">My Projects</h2>
                     
                     <div class="row justify-content-center">
-
-                        <div class="col-lg-6 mb-4 mb-lg-6" data-aos="fade-up" data-aos-duration="1000">
-                            <a href="https://pennypincha.herokuapp.com" class="mb-3 d-block position-relative">
-                                <div class="position-absolute d-flex justify-content-center align-items-center w-100 h-100 bg-secondary rounded text-white">
-                                    <i class="fas fa-link fa-2x"></i>
-                                </div>
-                                <img src="..\assets\img\PennyPincher.jpg" alt="" class="position-relative img-fluid w-100 shadow-lg rounded opacity-1-hover" />
-                            </a>
-                            <h4><a href="https://pennypincha.herokuapp.com" class="text-primary">Penny Pincher</a></h4>
-                            <p><a href="https://github.com/drthisguy/P2-The-Penny-Pincher" class="text-secondary">Repository</a></p>
-                        </div>
-                        
                         <div class="col-lg-6 mb-4 mb-lg-6" data-aos="fade-up" data-aos-duration="1000">
                             <a href="https://acucunato.github.io/pooch-quest/" class="mb-3 d-block position-relative">
                                 <div class="position-absolute d-flex justify-content-center align-items-center w-100 h-100 bg-secondary rounded text-white">
                                     <i class="fas fa-link fa-2x"></i>
                                 </div>
-                                <img src="..\assets\img\PoochQuest.jpg" alt="" class="position-relative img-fluid w-100 shadow-lg rounded opacity-1-hover" />
+                                <img src="template\assets\img\PoochQuest.jpg" alt="" class="position-relative img-fluid w-100 shadow-lg rounded opacity-1-hover" />
                             </a>
                             <h4><a href="https://acucunato.github.io/pooch-quest/" class="text-primary">Pooch Quest</a></h4>
                             <p><a href="https://github.com/acucunato/pooch-quest" class="text-secondary">Repository</a></p>
                         </div>
-
                         <div class="col-lg-6 mb-4 mb-lg-6" data-aos="fade-up" data-aos-duration="1000">
-                            <a href="https://aliciaburn.github.io/13-Burgers-MVC/" class="mb-3 d-block position-relative">
+                            <a href="https://aliciaburn.github.io/06-Homework/" class="mb-3 d-block position-relative">
                                 <div class="position-absolute d-flex justify-content-center align-items-center w-100 h-100 bg-secondary rounded text-white">
                                     <i class="fas fa-link fa-2x"></i>
                                 </div>
-                                <img src="..\assets\img\Eat_Da_Burger.jpg" alt="" class="position-relative img-fluid w-100 shadow-lg rounded opacity-1-hover" />
+                                <img src="template\assets\img\WeatherDashboard.jpg" alt="" class="position-relative img-fluid w-100 shadow-lg rounded opacity-1-hover" />
                             </a>
-                            <h4><a href="https://aliciaburn.github.io/13-Burgers-MVC/" class="text-primary">Eat Da Burger</a></h4>
-                            <p><a href="https://github.com/AliciaBurn/13-Burgers-MVC" class="text-secondary">Repository</a></p>
-                        </div>
-
-                        <div class="col-lg-6 mb-4 mb-lg-6" data-aos="fade-up" data-aos-duration="1000">
-                            <a href="https://aliciaburn.github.io/06-Weather-Dashboard/" class="mb-3 d-block position-relative">
-                                <div class="position-absolute d-flex justify-content-center align-items-center w-100 h-100 bg-secondary rounded text-white">
-                                    <i class="fas fa-link fa-2x"></i>
-                                </div>
-                                <img src="..\assets\img\WeatherDashboard.jpg" alt="" class="position-relative img-fluid w-100 shadow-lg rounded opacity-1-hover" />
-                            </a>
-                            <h4><a href="https://aliciaburn.github.io/06-Weather-Dashboard/" class="text-primary">Weather Dashboard</a></h4>
+                            <h4><a href="https://aliciaburn.github.io/06-Homework/" class="text-primary">Weather Dashboard</a></h4>
                             <p><a href="https://github.com/AliciaBurn/06-Homework" class="text-secondary">Repository</a></p>
                         </div>
-
                         <div class="col-lg-6 mb-4 mb-lg-6" data-aos="fade-up" data-aos-duration="1000">
-                            <a href="https://aliciaburn.github.io/05-Workday-Planner/" class="mb-3 d-block position-relative">
+                            <a href="https://aliciaburn.github.io/05-homework/" class="mb-3 d-block position-relative">
                                 <div class="position-absolute d-flex justify-content-center align-items-center w-100 h-100 bg-secondary rounded text-white">
                                     <i class="fas fa-link fa-2x"></i>
                                 </div>
-                                <img src="../assets/img/printscreens/blog.jpg" alt="" class="position-relative img-fluid w-100 shadow-lg rounded opacity-1-hover" />
+                                <img src="template\assets\img\Work-Day-Planner.jpg" alt="" class="position-relative img-fluid w-100 shadow-lg rounded opacity-1-hover" />
                             </a>
-                            <h4><a href="https://aliciaburn.github.io/05-Workday-Planner/" class="text-primary">Work Day Scheduler</a></h4>
-                            <p><a href="https://github.com/AliciaBurn/05-Workday-Planner" class="text-secondary">Repository</a></p>
+                            <h4><a href="https://aliciaburn.github.io/05-homework/" class="text-primary">Work Day Scheduler</a></h4>
+                            <p><a href="https://github.com/AliciaBurn/05-homework" class="text-secondary">Repository</a></p>
                         </div>
-
                         <div class="col-lg-6 mb-4 mb-lg-6" data-aos="fade-up" data-aos-duration="1000">
-                            <a href="https://aliciaburn.github.io/04-Trivia-Quiz/" class="mb-3 d-block position-relative">
+                            <a href="https://aliciaburn.github.io/04-homework/" class="mb-3 d-block position-relative">
                                 <div class="position-absolute d-flex justify-content-center align-items-center w-100 h-100 bg-secondary rounded text-white">
                                     <i class="fas fa-link fa-2x"></i>
                                 </div>
-                                <img src="..\assets\img\FriendsQuiz.jpg" alt="" class="position-relative img-fluid w-100 shadow-lg rounded opacity-1-hover" />
+                                <img src="template\assets\img\FriendsQuiz.jpg" alt="" class="position-relative img-fluid w-100 shadow-lg rounded opacity-1-hover" />
                             </a>
-                            <h4><a href="https://aliciaburn.github.io/04-Trivia-Quiz/" class="text-primary">Friends Quiz</a></h4>
+                            <h4><a href="https://aliciaburn.github.io/04-homework/" class="text-primary">Friends Quiz</a></h4>
                             <p><a href="https://github.com/AliciaBurn/04-homework" class="text-secondary">Repository</a></p>
                         </div>
-
                     </div>
                 </div>
             </section>
@@ -236,7 +338,7 @@
 
 
         <!-- Footer -->
-        <footer class="footer text-white" style="background-image: url(..\assets\img\footer-bg.jpg)">
+        <footer class="footer text-white" style="background-image: url(template/assets/img/footer-bg.jpg">
             <div class="container d-flex h-100">
                 <div class="row flex-grow-1">
                     <div class="col-lg-3 pt-3 ext-l bg-secondary text-center text-lg-left">
@@ -275,16 +377,16 @@
         <!-- End of Footer -->
 
 
-      <!--  Core Javascripts  -->
-        <script src="..\assets\vendor\jquery.min.js"></script>
-        <script src="..\assets\vendor\popper.min.js"></script>
-        <script src="..\assets\vendor\bootstrap.bundle.min.js"></script>
+        <!-- Core Javascripts -->
+        <script src="template\assets\vendor\jquery\dist\jquery.min.js"></script>
+        <script src="template\assets\vendor\popper.js\dist\umd\popper.min.js"></script>
+        <script src="template\assets\vendor\bootstrap\dist\js\bootstrap.min.js"></script>
 
         <!-- Vendor Javascripts -->
-        <script src="..\assets\vendor\rellax.min.js"></script>
-        <script src="..\assets\vendor\aos.js"></script>
+        <script src="template\assets\vendor\rellax\rellax.min.js"></script>
+        <script src="template\assets\vendor\aos\dist\aos.js"></script>
 
-        <!-- Theme Javascripts--> 
-        <script src="Portfolio\assets\js\theme.js"></script>
+        <!-- Theme Javascripts -->
+        <script src="template\assets\js\theme.js"></script>
     </body>
 </html>

@@ -1,0 +1,93 @@
+/*
+
+Theme: Spyre - Slick contemporary multipurpose theme
+Product Page: https://themes.getbootstrap.com/product/Alicia-slick-contemporary-multipurpose-theme
+Author: Webinning
+Author URI: https://webinning.co.uk
+
+---
+
+Copyright 2018 Webinning
+
+*/
+
+
+// Core
+@import "bootstrap/functions";
+
+// Variables
+@import "custom/variables";
+@import "Alicia/variables";
+@import "bootstrap/variables";
+
+// Mixins
+@import "bootstrap/mixins";
+@import "Alicia/mixins";
+
+// Bootstrap components
+@import "bootstrap/root";
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+@import "bootstrap/images";
+@import "bootstrap/code";
+@import "bootstrap/grid";
+@import "bootstrap/tables";
+@import "bootstrap/forms";
+@import "bootstrap/buttons";
+@import "bootstrap/transitions";
+@import "bootstrap/dropdown";
+@import "bootstrap/button-group";
+@import "bootstrap/input-group";
+@import "bootstrap/custom-forms";
+@import "bootstrap/nav";
+@import "bootstrap/navbar";
+@import "bootstrap/card";
+@import "bootstrap/breadcrumb";
+@import "bootstrap/pagination";
+@import "bootstrap/badge";
+@import "bootstrap/jumbotron";
+@import "bootstrap/alert";
+@import "bootstrap/progress";
+@import "bootstrap/media";
+@import "bootstrap/list-group";
+@import "bootstrap/close";
+@import "bootstrap/toasts";
+@import "bootstrap/modal";
+@import "bootstrap/tooltip";
+@import "bootstrap/popover";
+@import "bootstrap/carousel";
+@import "bootstrap/spinners";
+@import "bootstrap/utilities";
+@import "bootstrap/print";
+
+// Alicia components
+@import "Alicia/background";
+@import "Alicia/background-text";
+@import "Alicia/buttons";
+@import "Alicia/card";
+@import "Alicia/faq";
+@import "Alicia/footer";
+@import "Alicia/forms";
+@import "Alicia/icons";
+@import "Alicia/links";
+@import "Alicia/move";
+@import "Alicia/navbar";
+@import "Alicia/preloader";
+@import "Alicia/reboot";
+@import "Alicia/root";
+@import "Alicia/section";
+@import "Alicia/shapes";
+@import "Alicia/type";
+@import "Alicia/utilities";
+@import "Alicia/video";
+
+// Vendor
+@import "vendor/aos";
+@import "vendor/material-icons";
+@import "vendor/prism";
+@import "vendor/carousel";
+@import "vendor/fancybox";
+@import "vendor/rellax";
+
+// Custom styles
+@import "custom/styles";
